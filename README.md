@@ -38,7 +38,7 @@ Este projeto aplicou metodologias e aprendizados focados na experiência do usu�
 
 | Rascunho / Wireframe | Conceito de Interface |
 | :---: | :---: |
-| ![Wireframe](assets/docs/wireframe-rascunho.png) | **Hierarquia de Cards:** O card do bolo aninhado ao card da marca. |
+| ![Wireframe](assets/docs_UX/1.png) | **Hierarquia de Cards:** O card do bolo aninhado ao card da marca. |
 
 ### Paleta de Cores (Pastel & Kawaii)
 * **Olive Petal:** `#A3A380` (Acentos e botões de ação final)
