@@ -38,7 +38,7 @@ Este projeto aplicou metodologias e aprendizados focados na experiência do usu�
 
 | Rascunho Inicial 1 | Wireframe / Concepção 2 |
 | :---: | :---: |
-| ![Rascunho 1](assets/docs_UX/1.png) | ![Rascunho 2](assets/docs_UX/2.png) |
+| ![Rascunho 1](assets/docs_UX/1.jpeg) | ![Rascunho 2](assets/docs_UX/2.jpeg) |
 
 ---
 
