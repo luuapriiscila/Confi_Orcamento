@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONFI - Organizador de Orçamento</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Barra de Navegação -->
+    <header class="main-header">
+        <nav class="main-nav" aria-label="Navegação Principal">
+            <ul>
+                <li><a href="#inicio" class="nav-link active">Início</a></li>
+                <li><a href="#tamanho" class="nav-link">Orçamento</a></li>
+                <li><a href="#adicionais" class="nav-link">Adicionais</a></li>
+                <li><a href="#referencias" class="nav-link">Referências</a></li>
+            </ul>
+        </nav>
+
+        <a href="https://wa.me/" target="_blank" class="btn-zap" rel="noopener noreferrer">
+            💬 Chame no Zap
+        </a>
+    </header>
+
+    <main class="app-container">
+        
+        <!-- CARTÃO PRINCIPAL DE ENTRADA (Mãe: Marca + Coelho + Bloco do Bolo) -->
+        <section id="inicio" class="main-hero-card">
+            <div class="hero-header">
+                <div class="brand-info">
+                    <h1 class="brand-title">CONFI <span class="sparkle">✦</span></h1>
+                    <p class="brand-subtitle">ORGANIZADOR DE ORÇAMENTO</p>
+                </div>
+                <figure class="brand-mascot">
+                    <img src="assets/coelho.png" alt="Coelhinho CONFI">
+                </figure>
+            </div>
+
+            <div class="inner-banner-card">
+                <div class="banner-content">
+                    <h2>Quero meu bolo</h2>
+                    <p>Organize seu bolo do jeitinho que você sonhou!</p>
+                    <a href="#tamanho" class="btn-primary">ORÇAMENTO ➔</a>
+                </div>
+                <figure class="banner-illustration">
+                    <img src="assets/bolo.png" alt="Ilustração do Bolo CONFI">
+                </figure>
+            </div>
+        </section>
+
+        <!-- FORMULÁRIO DE ORÇAMENTO INTEGRADO -->
+        <form id="form-orcamento">
+
+            <!-- SEÇÃO 1: Escolha do Tamanho -->
+            <section id="tamanho" class="step-card">
+                <header class="step-header">
+                    <span class="step-counter">Passo 1 de 4</span>
+                    <h2>Escolha o tamanho do bolo</h2>
+                </header>
+
+                <fieldset class="options-group">
+                    <legend class="sr-only">Selecione o tamanho desejado</legend>
+
+                    <label class="option-card">
+                        <input type="radio" name="tamanho" value="P" data-preco="80" checked>
+                        <div class="option-content">
+                            <span class="card-icon">🎂</span>
+                            <h3>P</h3>
+                            <p>1,2 kg</p>
+                            <span class="badge-price">R$ 80</span>
+                        </div>
+                    </label>
+
+                    <label class="option-card">
+                        <input type="radio" name="tamanho" value="M" data-preco="120">
+                        <div class="option-content">
+                            <span class="card-icon">🎂</span>
+                            <h3>M</h3>
+                            <p>2,2 kg</p>
+                            <span class="badge-price">R$ 120</span>
+                        </div>
+                    </label>
+
+                    <label class="option-card">
+                        <input type="radio" name="tamanho" value="G" data-preco="160">
+                        <div class="option-content">
+                            <span class="card-icon">🎂</span>
+                            <h3>G</h3>
+                            <p>3,2 kg</p>
+                            <span class="badge-price">R$ 160</span>
+                        </div>
+                    </label>
+                </fieldset>
+
+                <footer class="step-footer align-right">
+                    <a href="#sabor" class="btn-primary">Continuar ➔</a>
+                </footer>
+            </section>
+
+            <!-- SEÇÃO 2: Escolha do Sabor -->
+            <section id="sabor" class="step-card">
+                <header class="step-header">
+                    <span class="step-counter">Passo 2 de 4</span>
+                    <h2>Escolha o sabor</h2>
+                </header>
+
+                <fieldset class="options-group">
+                    <legend class="sr-only">Selecione o sabor da massa</legend>
+
+                    <label class="option-card">
+                        <input type="radio" name="sabor" value="Morango" checked>
+                        <div class="option-content">
+                            <span class="card-icon">🍓</span>
+                            <h3>Morango</h3>
+                        </div>
+                    </label>
+
+                    <label class="option-card">
+                        <input type="radio" name="sabor" value="Chocolate">
+                        <div class="option-content">
+                            <span class="card-icon">🍫</span>
+                            <h3>Chocolate</h3>
+                        </div>
+                    </label>
+
+                    <label class="option-card">
+                        <input type="radio" name="sabor" value="Outro">
+                        <div class="option-content">
+                            <span class="card-icon">🥕</span>
+                            <h3>Outro</h3>
+                        </div>
+                    </label>
+                </fieldset>
+
+                <footer class="step-footer">
+                    <a href="#tamanho" class="btn-secondary">⬅ Voltar</a>
+                    <a href="#adicionais" class="btn-primary">Continuar ➔</a>
+                </footer>
+            </section>
+
+            <!-- SEÇÃO 3: Adicionais -->
+            <section id="adicionais" class="step-card">
+                <header class="step-header">
+                    <span class="step-counter">Passo 3 de 4</span>
+                    <h2>Adicionais</h2>
+                </header>
+
+                <div class="adicionais-container">
+                    <fieldset class="checkbox-group">
+                        <legend class="group-title">Frutas</legend>
+
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="adicional" value="Morango Extra" data-preco="10">
+                            <span class="item-name">Morango</span>
+                            <span class="item-price">+ R$ 10</span>
+                        </label>
+
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="adicional" value="Kiwi" data-preco="15">
+                            <span class="item-name">Kiwi</span>
+                            <span class="item-price">+ R$ 15</span>
+                        </label>
+                    </fieldset>
+
+                    <fieldset class="checkbox-group">
+                        <legend class="group-title">Decoração</legend>
+
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="adicional" value="Topo Personalizado" data-preco="8">
+                            <span class="item-name">Topo personalizado</span>
+                            <span class="item-price">+ R$ 8</span>
+                        </label>
+                    </fieldset>
+                </div>
+
+                <footer class="step-footer">
+                    <a href="#sabor" class="btn-secondary">⬅ Voltar</a>
+                    <a href="#referencias" class="btn-primary">Continuar ➔</a>
+                </footer>
+            </section>
+
+            <!-- SEÇÃO 4: Referências com Upload e IA -->
+            <section id="referencias" class="step-card">
+                <header class="step-header">
+                    <span class="step-counter">Passo 4 de 4</span>
+                    <h2>Referências</h2>
+                    <p class="step-subtitle">Envie imagens de referência do bolo que você deseja</p>
+                </header>
+
+                <div class="upload-area">
+                    <div class="upload-box">
+                        <span class="plus-icon">➕</span>
+                        <p><strong>Fazer upload</strong> ou arraste imagens para cá</p>
+                        <small>Você pode enviar até 4 imagens</small>
+                    </div>
+
+                    <button type="button" class="btn-ai">
+                        ✨ Fazer imagem generativa (IA)
+                    </button>
+                </div>
+
+                <footer class="step-footer">
+                    <a href="#adicionais" class="btn-secondary">⬅ Voltar</a>
+                    <a href="#resumo" class="btn-primary">Ver Resumo ➔</a>
+                </footer>
+            </section>
+
+            <!-- SEÇÃO FINAL: Resumo do Pedido -->
+            <section id="resumo" class="step-card summary-card">
+                <header class="step-header">
+                    <h2>Seu bolo</h2>
+                </header>
+
+                <div class="summary-body">
+                    <div class="summary-details">
+                        <div class="summary-row">
+                            <span>Tamanho</span>
+                            <strong>P (1,2 kg)</strong>
+                        </div>
+                        <div class="summary-row">
+                            <span>Sabor</span>
+                            <strong>Morango</strong>
+                        </div>
+                        <div class="summary-row">
+                            <span>Adicionais</span>
+                            <strong>Nenhum selecionado</strong>
+                        </div>
+                        <hr class="divider">
+                        <div class="summary-row total-row">
+                            <span>Total</span>
+                            <output class="total-price">R$ 80,00</output>
+                        </div>
+                    </div>
+
+                    <figure class="summary-preview">
+                        <img src="assets/bolo.png" alt="Prévia do bolo personalizado">
+                    </figure>
+                </div>
+
+                <footer class="step-footer center">
+                    <button type="button" class="btn-confirm">
+                        ✓ Confirmar e Enviar Pedido
+                    </button>
+                </footer>
+            </section>
+
+        </form>
+        <!-- RODAPÉ DO SITE -->
+    <footer class="main-footer">
+        <div class="footer-content">
+        <p class="copyright">
+            © 2026 <strong>CONFI</strong> — Desenvolvido por <strong>Luanna Tavares</strong>. Todos os direitos reservados.
+        </p>
+        <p class="footer-contact">
+            Contato: <a href="mailto:luannatavares128@gmail.com">luannatavares128@gmail.com</a>
+        </p>
+        </div>
+    </footer>
+    </main>
+
+</body>
+</html>

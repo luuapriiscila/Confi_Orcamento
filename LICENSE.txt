@@ -1,0 +1,8 @@
+Copyright (c) 2026 Luanna Priscila da Silva Tavares. Todos os direitos reservados.
+
+O projeto CONFI - Organizador de Orçamento, incluindo todo o seu código-fonte, 
+documentação, conceitos de UX/UI, wireframes e elementos gráficos/ilustrações, 
+é de propriedade intelectual exclusiva de Luanna Priscila da Silva Tavares.
+
+Nenhuma parte deste projeto pode ser reproduzida, distribuída, modificada, 
+comercializada ou utilizada sem a prévia autorização por escrito da autora.
