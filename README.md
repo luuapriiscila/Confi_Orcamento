@@ -31,16 +31,31 @@ Este projeto aplicou metodologias e aprendizados focados na experiência do usu�
 
 ---
 
-## 🎨 Design System & Rascunhos
+## 🎨 Design System, Wireframes & Galeria de Interface
 
-### Wireframes & Rascunhos Iniciais
-*Abaixo estão os wireframes e rascunhos de layout desenhados no processo de ideação:*
+### ✏️ Wireframes e Rascunhos Iniciais
+*Abaixo estão os esboços e wireframes desenhados durante a etapa de ideação:*
 
-| Rascunho / Wireframe | Conceito de Interface |
+| Rascunho Inicial 1 | Wireframe / Concepção 2 |
 | :---: | :---: |
-| ![Wireframe](assets/docs_UX/1.png) | **Hierarquia de Cards:** O card do bolo aninhado ao card da marca. |
+| ![Rascunho 1](assets/docs_UX/1.png) | ![Rascunho 2](assets/docs_UX/2.png) |
 
-### Paleta de Cores (Pastel & Kawaii)
+---
+
+### 📸 Telas da Interface (Resultado Final)
+*Visualização das etapas do formulário e protótipo funcional implementado:*
+
+| Tela Inicial | Etapa 1 — Configuração |
+| :---: | :---: |
+| ![Tela 1](assets/docs_UX/tela1.png) | ![Tela 2](assets/docs_UX/tela2.png) |
+
+| Etapa 2 — Seleção de Opções | Resumo do Orçamento |
+| :---: | :---: |
+| ![Tela 3](assets/docs_UX/tela3.png) | ![Tela 4](assets/docs_UX/tela4.png) |
+
+---
+
+### 🎨 Paleta de Cores (Pastel & Kawaii)
 * **Olive Petal:** `#A3A380` (Acentos e botões de ação final)
 * **Rose Blush:** `#D8A48F` (Botões principais e preço)
 * **Artic Daisy:** `#EFEBCE` (Bordas e destaques)
